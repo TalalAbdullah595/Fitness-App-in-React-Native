@@ -31,7 +31,7 @@ interface BodyPart {
 
 const BodyPartCard = ({ item, router, index }: { item: BodyPart; index: number; router: any }) => {
   return (
-    <Animated.View entering={FadeInDown.duration(400).delay(index * 200).springify()}>
+    // <Animated.View entering={FadeInDown.duration(400).delay(index * 200).springify()}>
       <TouchableOpacity style={[styles.cardContainer, { width: wp(45), height: wp(60) }]}
       onPress={()=> router.push({pathname: '/exercises', params: item})}
       >
@@ -42,7 +42,7 @@ const BodyPartCard = ({ item, router, index }: { item: BodyPart; index: number; 
         />
         <Text style={[styles.cardText, { fontSize: hp(2.3) }]}>{item?.name}</Text>
       </TouchableOpacity>
-    </Animated.View>
+    // </Animated.View>
   );
 };
 

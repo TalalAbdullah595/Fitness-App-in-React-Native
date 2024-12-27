@@ -36,3 +36,6 @@ yarn-error.*
 
 #constants
 .constants
+
+#app.json
+.app.json
