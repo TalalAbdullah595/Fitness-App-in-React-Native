@@ -21,7 +21,7 @@
         "backgroundColor": "#ffffff",
         "config": {
           "googleMaps": {
-            "apiKey": "AIzaSyA3FzKFHiA7bUcmOaubinG6wqCZt8Dw7Yk"
+            "apiKey": "Api-Key"
           }
         }
       }
